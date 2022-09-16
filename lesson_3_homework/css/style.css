@@ -1,0 +1,23 @@
+p {
+    color: red;
+}
+
+.title {
+    color: green;
+}
+
+#definition {
+    color: aqua;
+}
+
+div.list {
+    color: brown;
+}
+
+.story.blue {
+    color: blue;
+}
+
+.options li {
+    color: blueviolet;
+}
