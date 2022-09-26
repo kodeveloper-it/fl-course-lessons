@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+.wrapper {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424551;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.top-block {
+    margin-bottom: 60px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+
+.text2 {
+    margin-bottom: 20px;
+    line-height: 25.6px;
+}
+
+.text3 {
+    margin-bottom: 48px;
+    line-height: 25.6px;
+}
+
+.text4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 48px;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+
+.text5 {
+    line-height: 25.6px;
+    margin-bottom: 24px;
+}
+
+.list {
+    line-height: 25.6px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.text7 {
+    line-height: 25.6px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 26px;
+    color: darkmagenta;
+}
+
+h3 {
+    font-size: 22px;
+    color: gold;
+}
+
+.padding__all {
+    padding: 20px;
+    background-color: red;
+}
+
+.padding__left {
+    padding-left: 50px;
+    background-color: green;
+}
+
+.margin__all {
+    margin: 30px;
+    background-color: yellow;
+}
+
+.margin__left {
+    margin-left: 15px;
+    background-color: aquamarine;
+}
+
+.height__all {
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.height__max {
+    max-height: 50px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.height__min {
+    min-height: 40px;
+    background-color: blue;
+}
+
+.overflow__visible {
+    overflow: visible;
+    background-color: red;
+    width: 500px;
+    height: 30px;
+}
+
+.overflow__hidden {
+    overflow: hidden;
+    background-color: green;
+    width: 300px;
+    height: 30px;
+}
+
+.overflow__scroll {
+    overflow: scroll;
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+}
+
+.overflow__auto {
+    overflow: auto;
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+}
+
+.display__block {
+    background-color: red;
+    width: 300px;
+    height: 30px;
+    display: block;
+}
+
+.display__inline {
+    background-color: green;
+    width: 300px;
+    height: 30px;
+    display: inline;
+}
+
+.display__inline-block {
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+}
+
+.display__none {
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+    display: none;
+}
+
+.border__solid {
+    border: 2px solid red;
+}
+
+.border__dotted {
+    border: 5px dotted green;
+    border-left: none;
+}
+
+.border__dashed {
+    border-bottom: 4px dashed blue;
+}
+
+.border__double {
+    border: 10px double yellow;
+}
+
+
+
+.outline__solid {
+    outline: 2px solid red;
+}
+
+.outline__dotted {
+    outline: 5px dotted green;
+}
+
+.outline__dashed {
+    outline: 4px dashed blue;
+}
+
+.outline__double {
+    outline: 10px double yellow;
+}
+
+.border-radius__test {
+    padding: 75px;
+    border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	background-color: red;
+}
+
+.box-shadov__test {
+    box-shadow: 5px 5px 5px #000;
+}
+
+.opacity__1 {
+    opacity: 1;
+    background-color: red;
+}
+
+.opacity__half {
+    opacity: 0.5;
+    background-color: green;
+}
+
+.opacity__zero {
+    opacity: 0;
+    background-color: yellow;
+}
+
+.visability__hidden {
+    visibility: hidden;
+}
+
+.visability__visible {
+    visibility: visible;
+}
+
+.centring {
+    width: 300px;
+    background-color: red;
+    margin: 0 auto;
+}
