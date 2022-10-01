@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424551;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.top-block {
+    margin-bottom: 60px;
+}
+
+.text1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+
+.text2 {
+    margin-bottom: 20px;
+    line-height: 25.6px;
+}
+
+.text3 {
+    margin-bottom: 48px;
+    line-height: 25.6px;
+}
+
+.text4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 48px;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+
+.text5 {
+    line-height: 25.6px;
+    margin-bottom: 24px;
+}
+
+.list {
+    line-height: 25.6px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.text7 {
+    line-height: 25.6px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 26px;
+    color: darkmagenta;
+}
+
+h3 {
+    font-size: 22px;
+    color: red;
+}
+
+.testing__background-color {
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.testing__background-image {
+    background-image: url("../img/image-testing2.jpeg");
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+}
+
+.testing__background-position {
+    background-image: url("../img/image-testing2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.testing__background-attachment {
+    background-image: url("../img/image-testing3.jpeg");
+    background-attachment: fixed;
+    margin-bottom: 20px;
+}
+
+.testing__background-size {
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    background-image: url("../img/image-testing2.jpeg");
+    margin-bottom: 20px;
+}
+
+.testing__background-universal {
+    background: green url("../img/image-article1.jpg") 0 0 / cover no-repeat;
+    background-size: auto 100px;
+    margin-bottom: 20px;
+
+}
+
+.testing__background-universal-two {
+    background: url("../img/image-testing2.jpeg") no-repeat 0 0 / 300px, linear-gradient(55.95deg, rgba(255, 64, 58, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%), url("../img/image-testing3.jpeg") no-repeat right top / 800px;
+}
