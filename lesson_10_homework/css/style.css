@@ -1,0 +1,45 @@
+body{
+	
+}
+
+
+
+.list{}
+.list__item{}
+.list__link{}
+
+.article {}
+.article__container {}
+.article__title {}
+.article__image {}
+.article__image img{}
+.article__pic {}
+.article__main-text {}
+.article__text {}
+.article__text p{}
+.article__text ul {}
+.article__text ul li {}
+.article__text blockquote {}
+
+
+.button {
+	background-color: #794f45;
+}
+.button_green {
+	background-color: #7A956B;
+}
+.button_red {
+	background-color: red;
+}
+
+
+/* Якщо третій елемент саме тег P */
+.exp p:nth-child(3){
+	background-color: #7A956B;
+}
+
+
+
+
+
+
