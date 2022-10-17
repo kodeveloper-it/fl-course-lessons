@@ -1,0 +1,101 @@
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: red;
+}
+
+h3 {
+	font-size: 25px;
+	color: blue;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.car img {
+	max-height: 100%;
+}
+
+.car__parts {
+	width: 800px;
+	height: 400px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.parts__top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.parts__top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.parts__down-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.parts__down-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.relative__example {
+	width: 500px;
+	padding: 15px;
+	background-color: green;
+	position: relative;
+	left: 100px;
+}
+
+.lesson-practice__absolute {
+	position: relative;
+}
+
+.absolute__example {
+	padding: 5px;
+	background-color: red;
+	position: absolute;
+	left: 150px;
+	top: 5px;
+}
+
+.lesson-practice__fixed {
+	height: 200px;
+}
+
+.fixed__example {
+	padding: 25px;
+	background-color: blue;
+	position: fixed;
+	left: 300px;
+	bottom: 30px;
+	z-index: 2;
+}
+
+.sticky__example {
+	position: sticky;
+	padding: 25px;
+	color: brown;
+	top: 0;
+	background-color: green;
+	z-index: 1;
+}
