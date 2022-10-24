@@ -1,0 +1,165 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: red;
+	text-align: center;
+}
+.creative {
+	background: url(../img/space-bg.jpeg) 0 0 / cover no-repeat;
+	min-width: 1200px;
+	min-height: 674px;
+	position: relative;
+	perspective: 300px;
+	perspective-origin:center;
+}
+
+.creative-items__item1:hover {
+	transform: translate(50%, 0);
+	transition-duration: 1.5s;
+	transition-delay: 3s;
+}
+
+.creative-items__item2:hover {
+	transform: scale(1.5) translate(50%, 0) rotateX(50deg);
+	transition: all 2s ease 0.5s;
+}
+
+.creative-items__item3 {
+	animation-name: translateship;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	animation-play-state: running;
+	animation-delay: 1s;
+}
+
+@keyframes translateship {
+	0%  {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(30%, 0);
+	}
+
+	100% {
+		transform: translate(100%, 0);
+	}
+}
+
+.creative-items__item3:hover {
+	animation-play-state: paused;
+}
+
+.creative-items__item4 {
+	animation: test4 5s ease 1s 5 normal;
+}
+
+@keyframes test4 {
+	0%  {
+		transform: translate(0, 0) scale(1);
+	}
+
+	100% {
+		transform: translate(100%, 0) scale(2);
+	}
+}
+
+.appearance__button {
+	color: white;
+	border: 1px solid red;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+}
+
+.appearance__object {
+	background-color: yellow;
+	padding: 30px;
+	text-align: center;
+	opacity: 0;
+	animation: appearance 4s ease 1s infinite;
+	animation-play-state: paused;
+}
+
+@keyframes appearance {
+	0%  {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 1;
+	}
+	100% {
+		background-color: blue;
+	}
+}
+
+.appearance__button:hover + .appearance__object {
+	animation-play-state: running;
+}
+
+.text {
+	width: 400px;
+	color: white;
+	margin: 0 auto;
+	background-color: green;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text__title {
+	font-size: 30px;
+	opacity: 0;
+	animation: title 2s ease infinite;
+}
+
+.text__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.text__main {
+	font-size: 20px;
+	color: chocolate;
+	opacity: 0;
+	animation: title 2s ease 1s infinite;
+}
+
+@keyframes title {
+	0% {
+		transform: translate(0px, 100%);
+	}
+
+	100% {
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+}
+
+.creative-items__item6 {
+	animation: rotate 2s ease infinite;
+	animation-play-state: running;
+	width: 100px;
+	margin: 0 auto;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+	
+}
+
+
+
